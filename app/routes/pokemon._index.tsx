@@ -1,7 +1,7 @@
 import { json } from "@remix-run/node";
 import { Link, useLoaderData } from "@remix-run/react";
 import { getPokemons } from "~/models/pokemon.server";
-import { Outlet } from "@remix-run/react";
+
 type LoaderData = {
   data: Awaited<ReturnType<typeof getPokemons>>;
 };
