@@ -21,6 +21,8 @@ export function ErrorBoundary({ error }) {
         <title>Oh no!</title>
         <Meta />
         <Links />
+
+        {typeof document === "undefined" ? "__STYLES__" : null}
       </head>
       <body className="m-4">
         <h1 className="text-2xl">Something went wrong!</h1>
