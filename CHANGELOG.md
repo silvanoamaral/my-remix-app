@@ -1,3 +1,10 @@
+
+[//]: # (s-0.0.4)
+
+# [0.0.4] - (2023-08-31)
+
+[//]: # (e-0.0.4)
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
