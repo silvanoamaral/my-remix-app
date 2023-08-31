@@ -1,6 +1,7 @@
 {
   "private": true,
   "sideEffects": false,
+  "version": "0.1.6",
   "scripts": {
     "build": "remix build",
     "predev": "rimraf ./public/_redirects",
@@ -39,7 +40,6 @@
   "engines": {
     "node": ">=14"
   },
-  "version": "0.1.6",
   "release-it": {
     "npm": false,
     "plugins": {
@@ -60,33 +60,7 @@
           }
         ]
       },
-      "news-fragments": {
-        "changelogFile": "CHANGELOG.md",
-        "changelogDateFormat": "YYYY-MM-DD",
-        "fragmentsFolder": "fragments",
-        "fragmentsTypes": [
-          {
-            "title": "Features",
-            "extension": "feature"
-          },
-          {
-            "title": "Bugfixes",
-            "extension": "bugfix"
-          },
-          {
-            "title": "Documentation",
-            "extension": "doc"
-          },
-          {
-            "title": "Deprecations and Removals",
-            "extension": "removal"
-          },
-          {
-            "title": "Misc",
-            "extension": "misc"
-          }
-        ]
-      }
+      "news-fragments": {}
     }
   }
 }
