@@ -1,18 +1,21 @@
 {
   "npm": false,
+  "git": {
+    "commitMessage": "feat: 🎸 v${version}"
+  },
+  "news-fragments": {
+    "changelogFile": "CHANGELOG.md",
+    "changelogDateFormat": "YYYY-MM-DD",
+    "fragmentsFolder": "fragments",
+    "fragmentsTypes": [
+      { "title": "Features", "extension": "feature" },
+      { "title": "Bugfixes", "extension": "bugfix" },
+      { "title": "Documentation", "extension": "doc" },
+      { "title": "Deprecations and Removals", "extension": "removal" },
+      { "title": "Misc", "extension": "misc" }
+    ]
+  },
   "plugins": {
-    "news-fragments": {
-      "changelogFile": "CHANGELOG.md",
-      "changelogDateFormat": "YYYY-MM-DD",
-      "fragmentsFolder": "fragments",
-      "fragmentsTypes": [
-        { "title": "Features", "extension": "feature" },
-        { "title": "Bugfixes", "extension": "bugfix" },
-        { "title": "Documentation", "extension": "doc" },
-        { "title": "Deprecations and Removals", "extension": "removal" },
-        { "title": "Misc", "extension": "misc" }
-      ]
-    },
     "@release-it/bumper": {
       "in": {
         "file": "package.json",
