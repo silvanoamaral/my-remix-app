@@ -2,5 +2,8 @@
   "npm": false,
   "hooks": {
     "after:bump": ["npx auto-changelog -p"]
+  },
+  "plugins": {
+    "news-fragments": {}
   }
 }
