@@ -25,7 +25,7 @@ export function ErrorBoundary({ error }) {
         {typeof document === "undefined" ? "__STYLES__" : null}
       </head>
       <body className="m-4">
-        <h1 className="text-2xl">Something went wrong!!</h1>
+        <h1 className="text-2xl">Something went wrong!</h1>
         <p>{error.message}</p>
         <Scripts />
       </body>
