@@ -2,25 +2,5 @@
   "npm": false,
   "hooks": {
     "after:bump": ["npx auto-changelog -p"]
-  },
-  "plugins": {
-    "news-fragments": {},
-    "@release-it/bumper": {
-      "in": {
-        "file": "package.json",
-        "path": "version"
-      },
-      "out": [
-        {
-          "file": "sonar-project.properties",
-          "type": "text/plain",
-          "path": "sonar.projectVersion"
-        },
-        {
-          "file": "package.json",
-          "path": "version"
-        }
-      ]
-    }
   }
 }
