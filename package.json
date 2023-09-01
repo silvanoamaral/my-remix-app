@@ -60,7 +60,7 @@
           }
         ]
       },
-      "@grupoboticario/news-fragments": {}
+      "news-fragments": {}
     }
   }
 }
